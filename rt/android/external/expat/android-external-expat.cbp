@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="android-external-expat" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\rt\;CMake Files\rt\android\;CMake Files\rt\android\dalvik\;CMake Files\rt\android\dalvik\vm\;CMake Files\rt\android\libcore\;CMake Files\rt\android\libcore\crypto\;CMake Files\rt\android\libcore\crypto\src\;CMake Files\rt\android\libcore\crypto\src\main\;CMake Files\rt\android\libcore\crypto\src\main\native\;CMake Files\rt\android\libcore\luni\;CMake Files\rt\android\libcore\luni\src\;CMake Files\rt\android\libcore\luni\src\main\;CMake Files\rt\android\libcore\luni\src\main\native\;CMake Files\rt\android\libnativehelper\;CMake Files\rt\android\external\;CMake Files\rt\android\external\expat\;CMake Files\rt\android\external\fdlibm\;CMake Files\rt\android\external\icu4c\;CMake Files\rt\android\external\icu4c\common\;CMake Files\rt\android\external\icu4c\i18n\;CMake Files\rt\android\external\javasqlite\;CMake Files\rt\android\external\openssl\;CMake Files\rt\android\external\openssl\crypto\;CMake Files\rt\android\external\openssl\ssl\;CMake Files\rt\android\external\sqlite\;CMake Files\rt\android\external\zlib\;CMake Files\rt\robovm\;CMake Files\bc\;CMake Files\bc\src\;CMake Files\..\;CMake Files\..\libatomic_ops-prefix\;CMake Files\..\libatomic_ops-prefix\tmp\;CMake Files\..\extgc-prefix\;CMake Files\..\extgc-prefix\tmp\;CMake Files\core\;CMake Files\core\src\;CMake Files\debug\;CMake Files\debug\src\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/abdo/miravm/rt/android/external/expat" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-expat">
+         <Option output="/home/abdo/miravm/rt/android/external/expat/CMakeFiles/android-external-expat.dir/android-external-expat.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/expat" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DHAVE_EXPAT_CONFIG_H" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/expat/." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/expat/lib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 android-external-expat" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-expat/fast">
+         <Option output="/home/abdo/miravm/rt/android/external/expat/CMakeFiles/android-external-expat.dir/android-external-expat.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/expat" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DHAVE_EXPAT_CONFIG_H" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/expat/." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/expat/lib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 android-external-expat/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/expat/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/lib/xmlparse.c">
+         <Option target="android-external-expat"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/lib/xmlrole.c">
+         <Option target="android-external-expat"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/lib/xmlrole.h">
+         <Option target="android-external-expat"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/lib/xmltok.c">
+         <Option target="android-external-expat"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/lib/xmltok.h">
+         <Option target="android-external-expat"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/MergeStaticLibObjectFiles.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../libatomic_ops-prefix/tmp/libatomic_ops-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\libatomic_ops-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../extgc-prefix/tmp/extgc-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\extgc-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

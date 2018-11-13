@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="android-external-icu4c-icui18n" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\rt\;CMake Files\rt\android\;CMake Files\rt\android\dalvik\;CMake Files\rt\android\dalvik\vm\;CMake Files\rt\android\libcore\;CMake Files\rt\android\libcore\crypto\;CMake Files\rt\android\libcore\crypto\src\;CMake Files\rt\android\libcore\crypto\src\main\;CMake Files\rt\android\libcore\crypto\src\main\native\;CMake Files\rt\android\libcore\luni\;CMake Files\rt\android\libcore\luni\src\;CMake Files\rt\android\libcore\luni\src\main\;CMake Files\rt\android\libcore\luni\src\main\native\;CMake Files\rt\android\libnativehelper\;CMake Files\rt\android\external\;CMake Files\rt\android\external\expat\;CMake Files\rt\android\external\fdlibm\;CMake Files\rt\android\external\icu4c\;CMake Files\rt\android\external\icu4c\common\;CMake Files\rt\android\external\icu4c\i18n\;CMake Files\rt\android\external\javasqlite\;CMake Files\rt\android\external\openssl\;CMake Files\rt\android\external\openssl\crypto\;CMake Files\rt\android\external\openssl\ssl\;CMake Files\rt\android\external\sqlite\;CMake Files\rt\android\external\zlib\;CMake Files\rt\robovm\;CMake Files\bc\;CMake Files\bc\src\;CMake Files\..\;CMake Files\..\libatomic_ops-prefix\;CMake Files\..\libatomic_ops-prefix\tmp\;CMake Files\..\extgc-prefix\;CMake Files\..\extgc-prefix\tmp\;CMake Files\core\;CMake Files\core\src\;CMake Files\debug\;CMake Files\debug\src\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/abdo/miravm/rt/android/external/icu4c/i18n" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-icu4c-icui18n">
+         <Option output="/home/abdo/miravm/rt/android/external/icu4c/i18n/CMakeFiles/android-external-icu4c-icui18n.dir/android-external-icu4c-icui18n.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/icu4c/i18n" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DICU_NO_USER_DATA_OVERRIDE" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DU_I18N_IMPLEMENTATION" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/../common" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 android-external-icu4c-icui18n" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-icu4c-icui18n/fast">
+         <Option output="/home/abdo/miravm/rt/android/external/icu4c/i18n/CMakeFiles/android-external-icu4c-icui18n.dir/android-external-icu4c-icui18n.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/icu4c/i18n" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DICU_NO_USER_DATA_OVERRIDE" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DU_I18N_IMPLEMENTATION" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/../common" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 android-external-icu4c-icui18n/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/icu4c/i18n/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/alphaindex.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/anytrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/anytrans.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/astro.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/astro.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/basictz.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/bocsu.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/bocsu.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/brktrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/brktrans.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/buddhcal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/buddhcal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/calendar.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/casetrn.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/casetrn.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/cecal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/cecal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/chnsecal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/chnsecal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/choicfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/coleitr.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/coll.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/compactdecimalformat.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/coptccal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/coptccal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/cpdtrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/cpdtrans.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csdetect.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csdetect.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csmatch.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csmatch.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csr2022.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csr2022.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrecog.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrecog.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrmbcs.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrmbcs.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrsbcs.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrsbcs.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrucode.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrucode.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrutf8.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/csrutf8.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/curramt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/currfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/currfmt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/currpinf.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/currunit.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dangical.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dangical.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/datefmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dcfmtsym.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/decContext.c">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/decContext.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/decNumber.c">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/decNumber.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/decfmtst.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/decfmtst.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/decimfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/digitlst.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/digitlst.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dtfmtsym.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dtitvfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dtitvinf.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dtptngen.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/dtrule.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/esctrn.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/esctrn.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ethpccal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ethpccal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/fmtable.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/fmtable_cnv.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/format.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/fphdlimp.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/fphdlimp.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/fpositer.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/funcrepl.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/funcrepl.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/gender.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/gregocal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/gregoimp.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/gregoimp.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/hebrwcal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/hebrwcal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/identifier_info.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/identifier_info.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/indiancal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/indiancal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/inputext.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/inputext.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/islamcal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/islamcal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/japancal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/japancal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/locdspnm.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/measfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/measure.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/msgfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/name2uni.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/name2uni.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nfrs.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nfrs.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nfrule.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nfrule.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nfsubs.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nfsubs.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nortrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nortrans.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nultrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/nultrans.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/numfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/numsys.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/olsontz.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/olsontz.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/persncal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/persncal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/plurfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/plurrule.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/quant.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/quant.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbnf.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_data.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_data.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_pars.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_pars.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_rule.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_rule.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_set.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbt_set.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rbtz.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regexcmp.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regexcmp.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regeximp.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regeximp.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regexst.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regexst.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regextxt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/regextxt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/region.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/reldtfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/reldtfmt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/rematch.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/remtrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/remtrans.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/repattrn.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/scriptset.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/scriptset.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/search.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/selfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/simpletz.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/smpdtfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/smpdtfst.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/smpdtfst.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/sortkey.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/strmatch.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/strmatch.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/strrepl.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/strrepl.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/stsearch.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/taiwncal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/taiwncal.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tblcoll.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/timezone.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/titletrn.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/titletrn.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tmunit.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tmutamt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tmutfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tolowtrn.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tolowtrn.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/toupptrn.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/toupptrn.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/translit.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/transreg.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/transreg.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tridpars.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tridpars.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tzfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tzgnames.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tzgnames.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tznames.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tznames_impl.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tznames_impl.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tzrule.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/tztrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucal.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucln_in.c">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucln_in.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_bld.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_bld.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_cnt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_cnt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_elm.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_elm.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_res.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_sit.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_tok.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_tok.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_wgt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucol_wgt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucoleitr.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucsdet.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ucurr.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/udat.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/udateintervalformat.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/udatpg.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ulocdata.c">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/umsg.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/unesctrn.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/unesctrn.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uni2name.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uni2name.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/unum.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/upluralrules.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uregex.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uregexc.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/usearch.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof_build.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof_conf.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof_conf.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof_impl.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof_impl.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof_wsconf.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/uspoof_wsconf.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/utmscale.c">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/utrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/vtzone.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/vzone.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/vzone.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/windtfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/windtfmt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/winnmfmt.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/winnmfmt.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/wintzimpl.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/wintzimpl.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/zonemeta.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/zonemeta.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/zrule.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/zrule.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ztrans.cpp">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/ztrans.h">
+         <Option target="android-external-icu4c-icui18n"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/MergeStaticLibObjectFiles.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../libatomic_ops-prefix/tmp/libatomic_ops-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\libatomic_ops-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../extgc-prefix/tmp/extgc-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\extgc-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,5 @@
+/home/abdo/miravm/vm/target/binaries/linux/x86_64/libgc-dbg.a
+/home/abdo/miravm/vm/target/binaries/linux/x86_64/librobovm-core-dbg.a
+/home/abdo/miravm/vm/target/binaries/linux/x86_64/librobovm-debug-dbg.a
+/home/abdo/miravm/vm/target/binaries/linux/x86_64/librobovm-bc-dbg.a
+/home/abdo/miravm/vm/target/binaries/linux/x86_64/librobovm-rt-dbg.a

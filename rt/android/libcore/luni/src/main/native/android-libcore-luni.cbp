@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="android-libcore-luni" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\rt\;CMake Files\rt\android\;CMake Files\rt\android\dalvik\;CMake Files\rt\android\dalvik\vm\;CMake Files\rt\android\libcore\;CMake Files\rt\android\libcore\crypto\;CMake Files\rt\android\libcore\crypto\src\;CMake Files\rt\android\libcore\crypto\src\main\;CMake Files\rt\android\libcore\crypto\src\main\native\;CMake Files\rt\android\libcore\luni\;CMake Files\rt\android\libcore\luni\src\;CMake Files\rt\android\libcore\luni\src\main\;CMake Files\rt\android\libcore\luni\src\main\native\;CMake Files\rt\android\libnativehelper\;CMake Files\rt\android\external\;CMake Files\rt\android\external\expat\;CMake Files\rt\android\external\fdlibm\;CMake Files\rt\android\external\icu4c\;CMake Files\rt\android\external\icu4c\common\;CMake Files\rt\android\external\icu4c\i18n\;CMake Files\rt\android\external\javasqlite\;CMake Files\rt\android\external\openssl\;CMake Files\rt\android\external\openssl\crypto\;CMake Files\rt\android\external\openssl\ssl\;CMake Files\rt\android\external\sqlite\;CMake Files\rt\android\external\zlib\;CMake Files\rt\robovm\;CMake Files\bc\;CMake Files\bc\src\;CMake Files\..\;CMake Files\..\libatomic_ops-prefix\;CMake Files\..\libatomic_ops-prefix\tmp\;CMake Files\..\extgc-prefix\;CMake Files\..\extgc-prefix\tmp\;CMake Files\core\;CMake Files\core\src\;CMake Files\debug\;CMake Files\debug\src\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/abdo/miravm/rt/android/libcore/luni/src/main/native" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-libcore-luni">
+         <Option output="/home/abdo/miravm/rt/android/libcore/luni/src/main/native/CMakeFiles/android-libcore-luni.dir/android-libcore-luni.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/libcore/luni/src/main/native" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/expat/lib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/icu4c/common" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/icu4c/i18n" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/openssl/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/zlib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 android-libcore-luni" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-libcore-luni/fast">
+         <Option output="/home/abdo/miravm/rt/android/libcore/luni/src/main/native/CMakeFiles/android-libcore-luni.dir/android-libcore-luni.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/libcore/luni/src/main/native" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/expat/lib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/icu4c/common" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/icu4c/i18n" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/openssl/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/../../../../../external/zlib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 android-libcore-luni/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/libcore/luni/src/main/native/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/AsynchronousSocketCloseMonitor.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/AsynchronousSocketCloseMonitor.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/ExecStrings.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/ExecStrings.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/IcuUtilities.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/IcuUtilities.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/JniException.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/JniException.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/NetworkUtilities.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/NetworkUtilities.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/Register.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/ZipUtilities.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/ZipUtilities.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/cbigint.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/cbigint.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_io_Console.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_io_File.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_io_ObjectStreamClass.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_Character.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_Double.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_Float.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_Math.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_ProcessManager.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_RealToString.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_StrictMath.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_StringToReal.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_lang_System.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_math_NativeBN.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_nio_ByteOrder.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_nio_charset_Charsets.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_text_Bidi.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_util_regex_Matcher.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_util_regex_Pattern.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_util_zip_Adler32.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_util_zip_CRC32.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_util_zip_Deflater.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/java_util_zip_Inflater.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_AlphabeticIndex.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_DateIntervalFormat.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_ICU.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_NativeBreakIterator.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_NativeCollation.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_NativeConverter.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_NativeDecimalFormat.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_NativeIDN.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_NativeNormalizer.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_NativePluralRules.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_TimeZoneNames.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_icu_Transliterator.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_io_AsynchronousCloseMonitor.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_io_Memory.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_io_OsConstants.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_io_Posix.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/libcore_net_RawSocket.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/org_apache_harmony_xml_ExpatParser.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/readlink.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/readlink.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/realpath.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/valueOf.cpp">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/valueOf.h">
+         <Option target="android-libcore-luni"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/MergeStaticLibObjectFiles.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../libatomic_ops-prefix/tmp/libatomic_ops-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\libatomic_ops-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../extgc-prefix/tmp/extgc-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\extgc-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

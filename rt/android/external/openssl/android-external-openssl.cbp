@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="android-external-openssl" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\rt\;CMake Files\rt\android\;CMake Files\rt\android\dalvik\;CMake Files\rt\android\dalvik\vm\;CMake Files\rt\android\libcore\;CMake Files\rt\android\libcore\crypto\;CMake Files\rt\android\libcore\crypto\src\;CMake Files\rt\android\libcore\crypto\src\main\;CMake Files\rt\android\libcore\crypto\src\main\native\;CMake Files\rt\android\libcore\luni\;CMake Files\rt\android\libcore\luni\src\;CMake Files\rt\android\libcore\luni\src\main\;CMake Files\rt\android\libcore\luni\src\main\native\;CMake Files\rt\android\libnativehelper\;CMake Files\rt\android\external\;CMake Files\rt\android\external\expat\;CMake Files\rt\android\external\fdlibm\;CMake Files\rt\android\external\icu4c\;CMake Files\rt\android\external\icu4c\common\;CMake Files\rt\android\external\icu4c\i18n\;CMake Files\rt\android\external\javasqlite\;CMake Files\rt\android\external\openssl\;CMake Files\rt\android\external\openssl\crypto\;CMake Files\rt\android\external\openssl\ssl\;CMake Files\rt\android\external\sqlite\;CMake Files\rt\android\external\zlib\;CMake Files\rt\robovm\;CMake Files\bc\;CMake Files\bc\src\;CMake Files\..\;CMake Files\..\libatomic_ops-prefix\;CMake Files\..\libatomic_ops-prefix\tmp\;CMake Files\..\extgc-prefix\;CMake Files\..\extgc-prefix\tmp\;CMake Files\core\;CMake Files\core\src\;CMake Files\debug\;CMake Files\debug\src\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/abdo/miravm/rt/android/external/openssl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-openssl-crypto">
+         <Option output="/home/abdo/miravm/rt/android/external/openssl/crypto/CMakeFiles/android-external-openssl-crypto.dir/android-external-openssl-crypto.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/openssl/crypto" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DOPENSSL_THREADS" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DDSO_DLFCN" />
+            <Add option="-DHAVE_DLFCN_H" />
+            <Add option="-DL_ENDIAN" />
+            <Add option="-DTERMIOS" />
+            <Add option="-DOPENSSL_NO_CAMELLIA" />
+            <Add option="-DOPENSSL_NO_CAPIENG" />
+            <Add option="-DOPENSSL_NO_CAST" />
+            <Add option="-DOPENSSL_NO_CMS" />
+            <Add option="-DOPENSSL_NO_DTLS1" />
+            <Add option="-DOPENSSL_NO_EC_NISTP_64_GCC_128" />
+            <Add option="-DOPENSSL_NO_GMP" />
+            <Add option="-DOPENSSL_NO_GOST" />
+            <Add option="-DOPENSSL_NO_HEARTBEATS" />
+            <Add option="-DOPENSSL_NO_IDEA" />
+            <Add option="-DOPENSSL_NO_JPAKE" />
+            <Add option="-DOPENSSL_NO_MD2" />
+            <Add option="-DOPENSSL_NO_MDC2" />
+            <Add option="-DOPENSSL_NO_RC5" />
+            <Add option="-DOPENSSL_NO_RDRAND" />
+            <Add option="-DOPENSSL_NO_RFC3779" />
+            <Add option="-DOPENSSL_NO_RSAX" />
+            <Add option="-DOPENSSL_NO_SCTP" />
+            <Add option="-DOPENSSL_NO_SEED" />
+            <Add option="-DOPENSSL_NO_SHA0" />
+            <Add option="-DOPENSSL_NO_STATIC_ENGINE" />
+            <Add option="-DOPENSSL_NO_STORE" />
+            <Add option="-DOPENSSL_NO_WHIRLPOOL" />
+            <Add option="-DNO_WINDOWS_BRAINDEATH" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/.." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/../../zlib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/../include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/../include/openssl" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 android-external-openssl-crypto" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-openssl-crypto/fast">
+         <Option output="/home/abdo/miravm/rt/android/external/openssl/crypto/CMakeFiles/android-external-openssl-crypto.dir/android-external-openssl-crypto.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/openssl/crypto" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DOPENSSL_THREADS" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DDSO_DLFCN" />
+            <Add option="-DHAVE_DLFCN_H" />
+            <Add option="-DL_ENDIAN" />
+            <Add option="-DTERMIOS" />
+            <Add option="-DOPENSSL_NO_CAMELLIA" />
+            <Add option="-DOPENSSL_NO_CAPIENG" />
+            <Add option="-DOPENSSL_NO_CAST" />
+            <Add option="-DOPENSSL_NO_CMS" />
+            <Add option="-DOPENSSL_NO_DTLS1" />
+            <Add option="-DOPENSSL_NO_EC_NISTP_64_GCC_128" />
+            <Add option="-DOPENSSL_NO_GMP" />
+            <Add option="-DOPENSSL_NO_GOST" />
+            <Add option="-DOPENSSL_NO_HEARTBEATS" />
+            <Add option="-DOPENSSL_NO_IDEA" />
+            <Add option="-DOPENSSL_NO_JPAKE" />
+            <Add option="-DOPENSSL_NO_MD2" />
+            <Add option="-DOPENSSL_NO_MDC2" />
+            <Add option="-DOPENSSL_NO_RC5" />
+            <Add option="-DOPENSSL_NO_RDRAND" />
+            <Add option="-DOPENSSL_NO_RFC3779" />
+            <Add option="-DOPENSSL_NO_RSAX" />
+            <Add option="-DOPENSSL_NO_SCTP" />
+            <Add option="-DOPENSSL_NO_SEED" />
+            <Add option="-DOPENSSL_NO_SHA0" />
+            <Add option="-DOPENSSL_NO_STATIC_ENGINE" />
+            <Add option="-DOPENSSL_NO_STORE" />
+            <Add option="-DOPENSSL_NO_WHIRLPOOL" />
+            <Add option="-DNO_WINDOWS_BRAINDEATH" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/.." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/../../zlib" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/../include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/../include/openssl" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 android-external-openssl-crypto/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/crypto/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-openssl-ssl">
+         <Option output="/home/abdo/miravm/rt/android/external/openssl/ssl/CMakeFiles/android-external-openssl-ssl.dir/android-external-openssl-ssl.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/openssl/ssl" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DOPENSSL_THREADS" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DDSO_DLFCN" />
+            <Add option="-DHAVE_DLFCN_H" />
+            <Add option="-DL_ENDIAN" />
+            <Add option="-DTERMIOS" />
+            <Add option="-DOPENSSL_NO_CAMELLIA" />
+            <Add option="-DOPENSSL_NO_CAPIENG" />
+            <Add option="-DOPENSSL_NO_CAST" />
+            <Add option="-DOPENSSL_NO_CMS" />
+            <Add option="-DOPENSSL_NO_DTLS1" />
+            <Add option="-DOPENSSL_NO_EC_NISTP_64_GCC_128" />
+            <Add option="-DOPENSSL_NO_GMP" />
+            <Add option="-DOPENSSL_NO_GOST" />
+            <Add option="-DOPENSSL_NO_HEARTBEATS" />
+            <Add option="-DOPENSSL_NO_IDEA" />
+            <Add option="-DOPENSSL_NO_JPAKE" />
+            <Add option="-DOPENSSL_NO_MD2" />
+            <Add option="-DOPENSSL_NO_MDC2" />
+            <Add option="-DOPENSSL_NO_RC5" />
+            <Add option="-DOPENSSL_NO_RDRAND" />
+            <Add option="-DOPENSSL_NO_RFC3779" />
+            <Add option="-DOPENSSL_NO_RSAX" />
+            <Add option="-DOPENSSL_NO_SCTP" />
+            <Add option="-DOPENSSL_NO_SEED" />
+            <Add option="-DOPENSSL_NO_SHA0" />
+            <Add option="-DOPENSSL_NO_STATIC_ENGINE" />
+            <Add option="-DOPENSSL_NO_STORE" />
+            <Add option="-DOPENSSL_NO_WHIRLPOOL" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/.." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/../crypto" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/../include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 android-external-openssl-ssl" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="android-external-openssl-ssl/fast">
+         <Option output="/home/abdo/miravm/rt/android/external/openssl/ssl/CMakeFiles/android-external-openssl-ssl.dir/android-external-openssl-ssl.objlib" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/abdo/miravm/rt/android/external/openssl/ssl" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DLINUX" />
+            <Add option="-DRVM_X86_64" />
+            <Add option="-DHAVE_ANDROID_OS=1" />
+            <Add option="-DOPENSSL_THREADS" />
+            <Add option="-D_REENTRANT" />
+            <Add option="-DDSO_DLFCN" />
+            <Add option="-DHAVE_DLFCN_H" />
+            <Add option="-DL_ENDIAN" />
+            <Add option="-DTERMIOS" />
+            <Add option="-DOPENSSL_NO_CAMELLIA" />
+            <Add option="-DOPENSSL_NO_CAPIENG" />
+            <Add option="-DOPENSSL_NO_CAST" />
+            <Add option="-DOPENSSL_NO_CMS" />
+            <Add option="-DOPENSSL_NO_DTLS1" />
+            <Add option="-DOPENSSL_NO_EC_NISTP_64_GCC_128" />
+            <Add option="-DOPENSSL_NO_GMP" />
+            <Add option="-DOPENSSL_NO_GOST" />
+            <Add option="-DOPENSSL_NO_HEARTBEATS" />
+            <Add option="-DOPENSSL_NO_IDEA" />
+            <Add option="-DOPENSSL_NO_JPAKE" />
+            <Add option="-DOPENSSL_NO_MD2" />
+            <Add option="-DOPENSSL_NO_MDC2" />
+            <Add option="-DOPENSSL_NO_RC5" />
+            <Add option="-DOPENSSL_NO_RDRAND" />
+            <Add option="-DOPENSSL_NO_RFC3779" />
+            <Add option="-DOPENSSL_NO_RSAX" />
+            <Add option="-DOPENSSL_NO_SCTP" />
+            <Add option="-DOPENSSL_NO_SEED" />
+            <Add option="-DOPENSSL_NO_SHA0" />
+            <Add option="-DOPENSSL_NO_STATIC_ENGINE" />
+            <Add option="-DOPENSSL_NO_STORE" />
+            <Add option="-DOPENSSL_NO_WHIRLPOOL" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/.." />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/../crypto" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/../include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/libnativehelper/include/nativehelper" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include" />
+            <Add directory="/home/abdo/miravm/vm/rt/android/system/core/include/arch/linux-x86_64" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 android-external-openssl-ssl/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/abdo/miravm/rt/android/external/openssl/ssl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_cbc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_cfb.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_core.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_ctr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_ecb.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_misc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_ofb.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/aes/aes_wrap.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_bitstr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_bool.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_bytes.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_d2i_fp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_digest.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_dup.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_enum.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_gentm.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_i2d_fp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_int.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_mbstr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_object.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_octet.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_print.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_set.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_sign.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_strex.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_strnid.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_time.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_type.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_utctm.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_utf8.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/a_verify.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/ameth_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/asn1_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/asn1_gen.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/asn1_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/asn1_par.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/asn_mime.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/asn_moid.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/asn_pack.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/bio_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/bio_ndef.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/d2i_pr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/d2i_pu.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/evp_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/f_enum.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/f_int.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/f_string.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/i2d_pr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/i2d_pu.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/n_pkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/nsseq.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/p5_pbe.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/p5_pbev2.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/p8_pkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/t_bitst.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/t_crl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/t_pkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/t_req.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/t_spki.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/t_x509.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/t_x509a.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/tasn_dec.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/tasn_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/tasn_fre.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/tasn_new.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/tasn_prn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/tasn_typ.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/tasn_utl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_algor.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_attrib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_bignum.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_crl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_exten.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_info.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_long.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_name.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_nx509.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_pkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_pubkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_req.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_sig.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_spki.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_val.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_x509.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/asn1/x_x509a.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bf/bf_cfb64.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bf/bf_ecb.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bf/bf_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bf/bf_ofb64.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bf/bf_skey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/b_dump.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/b_print.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/b_sock.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bf_buff.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bf_nbio.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bf_null.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bio_cb.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bio_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bio_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_acpt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_bio.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_conn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_dgram.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_fd.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_file.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_log.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_mem.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_null.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bio/bss_sock.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_add.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_asm.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_blind.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_const.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_ctx.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_div.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_exp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_exp2.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_gcd.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_gf2m.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_kron.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_mod.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_mont.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_mpi.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_mul.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_nist.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_prime.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_prime.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_print.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_rand.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_recp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_shift.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_sqr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_sqrt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/bn/bn_word.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/buffer/buf_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/buffer/buf_str.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/buffer/buffer.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/buffer/buffer.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cmac/cm_ameth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cmac/cm_pmeth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cmac/cmac.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cmac/cmac.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/comp/c_rle.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/comp/c_zlib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/comp/comp_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/comp/comp_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_api.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_api.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_def.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_def.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_mall.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_mod.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/conf/conf_sap.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cpt_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cryptlib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cryptlib.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/cversion.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/cbc_cksm.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/cbc_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/cfb64ede.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/cfb64enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/cfb_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/des_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/des_old.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/des_old.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/des_old2.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/ecb3_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/ecb_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/ede_cbcm_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/enc_read.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/enc_writ.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/fcrypt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/fcrypt_b.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/ofb64ede.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/ofb64enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/ofb_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/pcbc_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/qud_cksm.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/rand_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/read2pwd.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/rpc_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/set_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/str2key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/des/xcbc_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_ameth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_check.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_depr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_gen.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dh/dh_pmeth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_ameth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_depr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_gen.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_ossl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_pmeth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_prn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_sign.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dsa/dsa_vrf.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dso/dso_dl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dso/dso_dlfcn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dso/dso_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dso/dso_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dso/dso_null.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/dso/dso_openssl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ebcdic.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ebcdic.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec2_mult.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec2_oct.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec2_smpl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_ameth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_check.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_curve.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_cvt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_mult.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_oct.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_pmeth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ec_print.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/eck_prn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ecp_mont.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ecp_nist.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ecp_oct.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ec/ecp_smpl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdh/ech_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdh/ech_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdh/ech_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdh/ech_ossl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdsa/ecs_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdsa/ecs_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdsa/ecs_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdsa/ecs_ossl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdsa/ecs_sign.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ecdsa/ecs_vrf.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_all.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_cnf.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_ctrl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_dyn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_fat.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_init.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_list.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_pkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/eng_table.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_asnmth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_cipher.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_dh.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_digest.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_dsa.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_ecdh.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_ecdsa.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_pkmeth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_rand.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_rsa.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/engine/tb_store.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/err/err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/err/err.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/err/err_all.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/err/err_prn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/bio_b64.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/bio_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/bio_md.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/bio_ok.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/c_all.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/c_allc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/c_alld.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/digest.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_aes.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_aes_cbc_hmac_sha1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_bf.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_des.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_des3.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_null.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_old.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_rc2.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_rc4.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_rc4_hmac_md5.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_rc5.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/e_xcbc_d.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/encode.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_acnf.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_cnf.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_pbe.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/evp_pkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_dss.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_dss1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_ecdsa.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_md4.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_md5.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_mdc2.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_null.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_ripemd.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_sha1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_sigver.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/m_wp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/names.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p5_crpt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p5_crpt2.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p_dec.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p_open.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p_seal.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p_sign.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/p_verify.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/pmeth_fn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/pmeth_gn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/evp/pmeth_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ex_data.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/hmac/hm_ameth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/hmac/hm_pmeth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/hmac/hmac.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/hmac/hmac.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/krb5/krb5_asn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/krb5/krb5_asn.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/lhash/lh_stats.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/lhash/lhash.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/lhash/lhash.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/md4/md4_dgst.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/md4/md4_one.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/md5/md5_dgst.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/md5/md5_one.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/mem.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/mem_clr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/mem_dbg.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes/cbc128.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes/ccm128.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes/cfb128.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes/ctr128.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes/gcm128.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes/ofb128.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/modes/xts128.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/o_dir.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/o_dir.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/o_init.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/o_str.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/o_str.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/o_time.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/o_time.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/objects/o_names.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/objects/obj_dat.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/objects/obj_dat.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/objects/obj_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/objects/obj_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/objects/obj_xref.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/objects/obj_xref.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_asn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_cl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_ext.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_ht.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_prn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_srv.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ocsp/ocsp_vfy.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_all.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_info.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_oth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_pk8.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_pkey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_seal.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_sign.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_x509.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pem_xaux.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pem/pvkfmt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_add.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_asn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_attr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_crpt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_crt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_decr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_init.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_key.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_kiss.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_mutl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_npas.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_p8d.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_p8e.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/p12_utl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs12/pk12err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs7/pk7_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs7/pk7_attr.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs7/pk7_doit.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs7/pk7_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs7/pk7_mime.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs7/pk7_smime.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pkcs7/pkcs7err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pqueue/pqueue.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/pqueue/pqueue.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rand/md_rand.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rand/rand_egd.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rand/rand_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rand/rand_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rand/rand_unix.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rand/rand_win.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rand/randfile.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc2/rc2_cbc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc2/rc2_ecb.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc2/rc2_skey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc2/rc2cfb64.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc2/rc2ofb64.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc4/asm/rc4-md5-x86_64.S">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc4/rc4_enc.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc4/rc4_skey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rc4/rc4_utl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ripemd/rmd_dgst.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ripemd/rmd_one.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_ameth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_asn1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_chk.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_crpt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_eay.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_gen.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_none.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_null.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_oaep.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_pk1.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_pmeth.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_prn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_pss.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_saos.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_sign.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_ssl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/rsa/rsa_x931.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/sha/sha1_one.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/sha/sha1dgst.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/sha/sha256.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/sha/sha512.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/sha/sha_dgst.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/srp/srp_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/srp/srp_vfy.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/stack/stack.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/stack/stack.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ts/ts_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/txt_db/txt_db.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/txt_db/txt_db.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ui/ui_compat.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ui/ui_compat.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ui/ui_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ui/ui_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ui/ui_openssl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/ui/ui_util.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/uid.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/by_dir.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/by_file.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_att.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_cmp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_d2.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_def.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_ext.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_lu.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_obj.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_r2x.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_req.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_set.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_trs.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_txt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_v3.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_vfy.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_vfy.h">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509_vpm.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509cset.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509name.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509rset.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509spki.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x509type.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509/x_all.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/pcy_cache.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/pcy_data.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/pcy_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/pcy_map.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/pcy_node.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/pcy_tree.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_akey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_akeya.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_alt.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_bcons.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_bitst.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_conf.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_cpols.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_crld.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_enum.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_extku.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_genn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_ia5.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_info.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_int.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_lib.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_ncons.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_ocsp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_pci.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_pcia.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_pcons.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_pku.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_pmaps.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_prn.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_purp.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_skey.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_sxnet.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3_utl.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/x509v3/v3err.c">
+         <Option target="android-external-openssl-crypto"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/bio_ssl.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/d1_both.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/d1_clnt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/d1_enc.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/d1_lib.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/d1_pkt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/d1_srtp.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/kssl.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/kssl.h">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s23_clnt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s23_lib.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s23_meth.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s23_pkt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s23_srvr.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s2_clnt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s2_enc.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s2_lib.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s2_meth.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s2_pkt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s2_srvr.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_both.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_cbc.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_clnt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_enc.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_lib.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_meth.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_pkt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/s3_srvr.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_algs.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_asn1.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_cert.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_ciph.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_err.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_err2.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_lib.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_rsa.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_sess.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_stat.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/ssl_txt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/t1_clnt.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/t1_enc.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/t1_lib.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/t1_meth.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/t1_reneg.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/t1_srvr.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/tls_srp.c">
+         <Option target="android-external-openssl-ssl"/>
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/MergeStaticLibObjectFiles.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/dalvik/vm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\dalvik\vm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/crypto/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\crypto\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libcore/luni/src/main/native/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libcore\luni\src\main\native\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/libnativehelper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\libnativehelper\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/expat/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\expat\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/fdlibm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\fdlibm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\common\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/icu4c/i18n/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\icu4c\i18n\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/javasqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\javasqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/crypto/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\crypto\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/openssl/ssl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\openssl\ssl\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/sqlite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\sqlite\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/android/external/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\android\external\zlib\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/rt/robovm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rt\robovm\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/bc/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\bc\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../libatomic_ops-prefix/tmp/libatomic_ops-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\libatomic_ops-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/../extgc-prefix/tmp/extgc-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\..\extgc-prefix\tmp\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/core/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+      <Unit filename="/home/abdo/miravm/vm/debug/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\debug\src\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

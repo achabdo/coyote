@@ -1,0 +1,3 @@
+repository='git://github.com/ivmai/libatomic_ops.git'
+module=''
+tag=''

@@ -1,0 +1,1 @@
+cmd='bash;-c;CC=/usr/bin/gcc CFLAGS=' -Wall -fdata-sections -ffunction-sections -fPIC -m64 -DGC_DISABLE_INCREMENTAL -DGC_DISCOVER_TASK_THREADS -DGC_FORCE_UNMAP_ON_GCOLLECT -DMARK_DESCR_OFFSET=24 -g' LDFLAGS='  -fPIC -m64' ./configure  --enable-shared=no --enable-munmap=1 --enable-parallel-mark=yes --enable-gc-debug=yes --prefix=/home/abdo/miravm/vm/gc'
