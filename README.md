@@ -1,3 +1,3 @@
-# MiraVM
+# Coyote
 
-Please see [miravm.com](http://miravm.com) for more information.
+An Ahead of time compiler for java targeting lot devices and embedded linux.
